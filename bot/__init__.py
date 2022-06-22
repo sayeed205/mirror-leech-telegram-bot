@@ -201,7 +201,7 @@ try:
         raise KeyError
     TG_SPLIT_SIZE = int(TG_SPLIT_SIZE)
 except:
-    TG_SPLIT_SIZE = 2097151000
+    TG_SPLIT_SIZE = 4194302000
 try:
     STATUS_LIMIT = getConfig('STATUS_LIMIT')
     if len(STATUS_LIMIT) == 0:
